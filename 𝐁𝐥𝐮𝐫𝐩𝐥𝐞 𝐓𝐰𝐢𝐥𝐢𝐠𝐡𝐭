@@ -1,74 +1,47 @@
 {
   "name": "𐌌𝐁𝐥𝐮𝐫𝐩𝐥𝐞 𝐓𝐰𝐢𝐥𝐢𝐠𝐡𝐭",
-  "description": "Risky-dark with Blurple Twilight colors and background",
-  "version": "1.1",
+  "description": "Blurple Twilight colors applied",
+  "version": "1.2",
   "authors": [
     {
       "name": "Mrisky",
       "id": "1113130615630471290"
     }
   ],
-  "simple_colors": {
-    "accent": -14346056,
-    "mention_highlight": 1094790574,
-    "blocked_bg": -15000465,
-    "background": 0,
-    "background_secondary": 0,
-    "input_background": -15857321,
-    "statusbar": 0,
-    "active_channel": -368639922
+  "semanticColors": {
+    "BACKGROUND_PRIMARY": ["#000000", "#000000"],
+    "BACKGROUND_SECONDARY": ["#000000", "#000000"],
+    "HEADER_PRIMARY": ["#8A3FFC", "#8A3FFC"],
+    "INTERACTIVE_ACTIVE": ["#8A3FFC", "#8A3FFC"],
+    "INTERACTIVE_NORMAL": ["#A074D7", "#A074D7"],
+    "KEYBOARD": ["#000000", "#000000"],
+    "TEXT_MUTED": ["#9A9A9A", "#9A9A9A"],
+    "TEXT_NORMAL": ["#FFFFFF", "#FFFFFF"]
   },
-  "colors": {
-    "brand_new_360": -14864206,
-    "link": -15138670,
-    "link_500": -16773506,
-    "primary_dark_300": -12302136,
-    "primary_dark_630": 0,
-    "primary_dark_600": 0,
-    "primary_dark_660": -15463596,
-    "primary_dark_800": -15988937,
-    "primary_dark_400": -11380590,
-    "brand_new_560": -11247873,
-    "primary_dark_330": -4539718,
-    "primary_dark_360": -11116899,
-    "primary_300": -14408910
-  },
-  "drawable_tints": {
-    "ic_sidebar_pins_off_dark_24dp": -12302136,
-    "ic_sidebar_notifications_on_dark_24dp": -12302136,
-    "ic_channel_announcements": -10398465,
-    "ic_channel_announcements_locked": -10398465,
-    "ic_channel_text": -10398465,
-    "ic_channel_text_locked": -10398465,
-    "ic_channel_text_nsfw": -10398465,
-    "ic_channel_voice": -10398465,
-    "ic_channel_voice_locked": -10398465,
-    "ic_sidebar_notifications_off_dark_24dp": -12302136,
-    "ic_sidebar_pins_on_light_24dp": -12302136
+  "rawColors": {
+    "PRIMARY_600": "#191970",
+    "PRIMARY_660": "#000000",
+    "BRAND_360": "#191970",
+    "BRAND_500": "#8A3FFC",
+    "BRAND_560": "#A074D7",
+    "PLUM_6": "#FFFFFF",
+    "PLUM_9": "#949BA4",
+    "PLUM_10": "#8D919C",
+    "PLUM_16": "#4F545C",
+    "PLUM_17": "#000000",
+    "PLUM_18": "#000000",
+    "PLUM_20": "#000000",
+    "PLUM_22": "#000000",
+    "PLUM_24": "#000000"
   },
   "fonts": {
-    "ABCGintoNord-ExtraBold": "https://github.com/DEAD1nsane/Turbo/raw/refs/heads/main/Fonts/Gantari-ExtraBold.ttf?raw=1",
-    "ggsans-Bold": "https://github.com/DEAD1nsane/Turbo/raw/refs/heads/main/Fonts/Gantari-Bold.ttf?raw=1",
-    "ggsans-BoldItalic": "https://github.com/DEAD1nsane/Turbo/raw/refs/heads/main/Fonts/Gantari-BoldItalic.ttf?raw=1",
-    "ggsans-ExtraBold": "https://github.com/DEAD1nsane/Turbo/raw/refs/heads/main/Fonts/Gantari-ExtraBold.ttf?raw=1",
-    "ggsans-ExtraBoldItalic": "https://github.com/DEAD1nsane/Turbo/raw/refs/heads/main/Fonts/Gantari-ExtraBoldItalic.ttf?raw=1",
-    "ggsans-Medium": "https://github.com/DEAD1nsane/Turbo/raw/refs/heads/main/Fonts/Gantari-Medium.ttf?raw=1",
-    "ggsans-MediumItalic": "https://github.com/DEAD1nsane/Turbo/raw/refs/heads/main/Fonts/Gantari-MediumItalic.ttf?raw=1",
-    "ggsans-Normal": "https://github.com/DEAD1nsane/Turbo/raw/refs/heads/main/Fonts/Gantari-Normal.ttf?raw=1",
-    "ggsans-NormalItalic": "https://github.com/DEAD1nsane/Turbo/raw/refs/heads/main/Fonts/Gantari-NormalItalic.ttf?raw=1",
-    "ggsans-Semibold": "https://github.com/DEAD1nsane/Turbo/raw/refs/heads/main/Fonts/Gantari-Semibold.ttf?raw=1",
-    "ggsans-SemiboldItalic": "https://github.com/DEAD1nsane/Turbo/raw/refs/heads/main/Fonts/Gantari-SemiboldItalic.ttf?raw=1",
-    "NotoSans-Bold": "https://github.com/DEAD1nsane/Turbo/raw/refs/heads/main/Fonts/Gantari-Bold.ttf?raw=1",
-    "NotoSans-ExtraBold": "https://github.com/DEAD1nsane/Turbo/raw/refs/heads/main/Fonts/Gantari-ExtraBold.ttf?raw=1",
-    "NotoSans-Medium": "https://github.com/DEAD1nsane/Turbo/raw/refs/heads/main/Fonts/Gantari-Medium.ttf?raw=1",
-    "NotoSans-Normal": "https://github.com/DEAD1nsane/Turbo/raw/refs/heads/main/Fonts/Gantari-Normal.ttf?raw=1",
-    "NotoSans-NormalItalic": "https://github.com/DEAD1nsane/Turbo/raw/refs/heads/main/Fonts/Gantari-NormalItalic.ttf?raw=1",
-    "NotoSans-Semibold": "https://github.com/DEAD1nsane/Turbo/raw/refs/heads/main/Fonts/Gantari-Semibold.ttf?raw=1",
-    "SourceCodePro-Semibold": "https://github.com/DEAD1nsane/Turbo/raw/refs/heads/main/Fonts/Gantari-Semibold.ttf?raw=1"
+    "*": "https://github.com/miwooscatrisadinha/twilightblue/raw/refs/heads/main/Font/GGSANS_Semibold.ttf"
   },
   "background": {
     "url": "https://raw.githubusercontent.com/miwooscatrisadinha/twilightblue/refs/heads/main/Backgrounds/BlurpleTwilightGradient.png",
-    "overlay_alpha": 80
+    "overlay_alpha": 80,
+    "blur": 1.9,
+    "OPACITY": 0
   },
   "plus": {
     "version": "0",
